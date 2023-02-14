@@ -37,7 +37,7 @@ This repository is used to practice git commands and github workflows for the Gi
 | `git pull` | `git pull <remote> <branch>` | Copies and merges changes from the remote repository to your local repository. |
 | `git push` | `git push <remote> <branch>` | Copies and merges changes from your local repository to the remote repository. |
 | `git add` | `git add <file_name>` | Adds changes made in the working directory to the staging area. |
-| `git commit` | `git commit -m "<commit_message>"`<br>`git commit -a` | Commits changes to the local repository. |
+| `git commit` | `git commit -m "<commit_message>"`<br>`git commit -a` | Commits changes to the local repository.<br>`-a` attribute specifies to commit changes straight from working directory to repository. Ignnores untracked files. |
 
 ## Branching Commands
 | Command | Syntax | Description |
@@ -55,8 +55,8 @@ This repository is used to practice git commands and github workflows for the Gi
 | `git status` | `git status` | Shows the status of the working directory and staging area. |
 | `git log` | `git log` | Shows the commit history for the current branch. |
 | `git diff` | `git diff` | Shows the difference between the working directory and the staging area. |
-| `git revert` | `git revert <commit_hash>` | Reverts the specified commit. Keeps all commits|
-| `git reset` | `git reset <commit_hash>` | Resets the current branch to the specified commit. Removes all commits after the specified commit. |
+| `git revert` | `git revert <commit_hash>` | Undos a specific commit with a new commit. |
+| `git reset` | `git reset <commit_hash>`<br>`[--soft] [--mixed] [--hard]` | Moves head to the specified commit.<br>`--soft` keeps changes after specified commit in index<br>`--mixed` keeps changes after specified commit only in working directory<br>`--hard` discards all changes after specified commit |
 
 
 # Additional resources
