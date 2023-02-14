@@ -1,8 +1,8 @@
 # git-wth-adrian
 This repository is used to practice git commands and github workflows for the Git Good with Adrian workshop.
 
-## Pracice Instructions
-### Part 1: Setup
+# Practice Instructions
+## Part 1: Setup
 1. Install git on your machine and create a github account
 2. On local machine, create a directory `C:\users\<yourname>\dev\`
 3. Navigate to the directory `C:\users\<yourname>\dev\`
@@ -13,7 +13,7 @@ This repository is used to practice git commands and github workflows for the Gi
     - Pull latest changes from upstream remote repository
       - `git pull upstream master`
 
-### Part 2: Make your changes
+## Part 2: Make your changes
 1. Create a new branch with your name
 2. Create a new file with your name containing the following:
     - Your name
@@ -23,17 +23,11 @@ This repository is used to practice git commands and github workflows for the Gi
 5. Merge changes into the master branch
 6. Push changes to the remote repository
 
-### Part 3: Create a pull request
+## Part 3: Create a pull request
 1. Log into github
 2. Navigate to the upstream remote repository
 3. Create a pull request
 4. Wait for approval
-5.
-
-
-
-
-[brandon1024](https://gist.github.com/brandon1024)/[GITCRASHCOURSE.MD](https://gist.github.com/brandon1024/14b5f9fcfd982658d01811ee3045ff1e)
 
 # Git Syntax
 ## Basic Commands
@@ -65,4 +59,7 @@ This repository is used to practice git commands and github workflows for the Gi
 | `git reset` | `git reset <commit_hash>` | Resets the current branch to the specified commit. Removes all commits after the specified commit. |
 
 
-More git commands [https://training.github.com/downloads/github-git-cheat-sheet/](https://training.github.com/downloads/github-git-cheat-sheet/)
+# Additional resources
+- Git Crash course: [brandon1024](https://gist.github.com/brandon1024)/[GITCRASHCOURSE.MD](https://gist.github.com/brandon1024/14b5f9fcfd982658d01811ee3045ff1e)
+- Git Cheat Sheet: [https://training.github.com/downloads/github-git-cheat-sheet/](https://training.github.com/downloads/github-git-cheat-sheet/)
+- Visual Git Cheat Sheet: [https://ndpsoftware.com/git-cheatsheet.html](https://ndpsoftware.com/git-cheatsheet.html)
