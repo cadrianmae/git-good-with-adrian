@@ -2,8 +2,16 @@
 This repository is used to practice git commands and github workflows for the Git Good with Adrian workshop.
 
 # Practice Instructions
+## Setup
+1. Install git on your machine
+2. Configure git with your name and email
+    - `git config --global user.name "<your_name>"`
+    - `git config --global user.email "<your_email>"`
+    - Do not use your student email!
+3. Create a github account (again do not use your student email)
+
 ## Part 1: Setup
-1. Install git on your machine and create a github account
+1. Fork this repository to your github account
 2. On local machine, create a directory `C:\users\<yourname>\dev\`
 3. Navigate to the directory `C:\users\<yourname>\dev\`
 4. Clone this repository to your local machine in current directory
