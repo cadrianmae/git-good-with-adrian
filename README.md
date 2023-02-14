@@ -1,11 +1,13 @@
 # git-wth-adrian
-## Pratical Instructions
+This repository is used to practice git commands and github workflows for the Git Good with Adrian workshop.
+
+## Pracice Instructions
 ### Part 1: Setup
 1. Install git on your machine and create a github account
 2. On local machine, create a directory `C:\users\<yourname>\dev\`
-2. Navigate to the directory `C:\users\<yourname>\dev\`
-1. Clone this repository to your local machine in current directory
-1. Pull latest changes from upstream remote repository
+3. Navigate to the directory `C:\users\<yourname>\dev\`
+4. Clone this repository to your local machine in current directory
+5. Pull latest changes from upstream remote repository
     - If there is no upstream remote repository, add it with the following command
         - `git remote add upstream https://github.com/AdrianCapacite/git-good-wth-adrian.git`
     - Pull latest changes from upstream remote repository
@@ -13,20 +15,20 @@
 
 ### Part 2: Make your changes
 1. Create a new branch with your name
-3. Create a new file with your name containing the following:
+2. Create a new file with your name containing the following:
     - Your name
     - Your favorite programming language
-1. Add the file to the staging area
-2. Commit the file to the local repository
-1. Merge changes into the master branch
-1. Push changes to the remote repository
+3. Add the file to the staging area
+4. Commit the file to the local repository
+5. Merge changes into the master branch
+6. Push changes to the remote repository
 
 ### Part 3: Create a pull request
 1. Log into github
 2. Navigate to the upstream remote repository
 3. Create a pull request
 4. Wait for approval
-5. 
+5.
 
 
 
