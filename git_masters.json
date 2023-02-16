@@ -7,6 +7,10 @@
             "preferrer_lang" : "Java"
         },
         {
+            "name" : "Ruán",
+            "year" : 1,
+            "preferrer_lang" : "Python"
+        },
             "name" : "Luke",
             "year" : 2,
             "preferrer_lang" : "C"
