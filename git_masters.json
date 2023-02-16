@@ -34,6 +34,11 @@
             "preferred_lang" : "Python"
         },
         {
+            "name" : "Shan",
+            "year" : 1,
+            "preferred_lang" : "C"
+        },
+        }
             "name" : "Eilish",
             "year" : 1,
             "preferred_lang" : "C"
