@@ -112,3 +112,7 @@ Sometimes merge conflics happen and you have to resolve them.
 - Git Crash course: [brandon1024](https://gist.github.com/brandon1024)/[GITCRASHCOURSE.MD](https://gist.github.com/brandon1024/14b5f9fcfd982658d01811ee3045ff1e)
 - Git Cheat Sheet: [https://training.github.com/downloads/github-git-cheat-sheet/](https://training.github.com/downloads/github-git-cheat-sheet/)
 - Visual Git Cheat Sheet: [https://ndpsoftware.com/git-cheatsheet.html](https://ndpsoftware.com/git-cheatsheet.html)
+
+## Extra tools
+
+- [GitKraken/GitLens](https://www.gitkraken.com/invite/tsy4Zh9H) - Visual Git Client
