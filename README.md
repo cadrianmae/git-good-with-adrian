@@ -17,18 +17,38 @@ This repository is used to practice git commands and github workflows for the Gi
 4. Clone this repository to your local machine in current directory
 5. Pull latest changes from upstream remote repository
     - If there is no upstream remote repository, add it with the following command
-        - `git remote add upstream https://github.com/AdrianCapacite/git-good-wth-adrian.git`
+      - `git remote add upstream https://github.com/AdrianCapacite/git-good-wth-adrian.git`
     - Pull latest changes from upstream remote repository
       - `git pull upstream master`
 
 ## Part 2: Make your changes
 1. Create a new branch with your name
-2. Create a new file with your name containing the following:
-    - Your name
-    - Your favorite programming language
+2. Edit the git_masters.json file
+    - Follow the format of my entry in students
+        - Name
+        - Your perferred language
 3. Add the file to the staging area
 4. Commit the file to the local repository
-5. Merge changes into the master branch
+5. Merge changes into the main branch
+6. Push changes to the remote repository
+
+## Part 3: Dealing with merge conflicts
+Sometimes merge conflics happen and you have to resolve them.
+1. Merge the branch `joe` into the main branch
+    - Git will tell you that there is a merge conflict
+2. Open the file with the merge conflict, You will see the following
+    - ```
+        <<<<<<< HEAD
+        Your changes
+        =======
+        Joe's changes
+        >>>>>>> joe
+        ```
+    - The between `<<<<<<< HEAD` and `=======` are the changes in the current (main) branch
+    - The between `=======` and `>>>>>>> joe` are the changes in the joe branch
+3. Delete joe's changes and keep your changes by deleting between `=======` and `>>>>>>> joe`
+4. Then delete the lines `<<<<<<< HEAD`, `=======` and `>>>>>>> joe`
+5. Commit the changes
 6. Push changes to the remote repository
 
 ## Part 3: Create a pull request
@@ -42,9 +62,9 @@ This repository is used to practice git commands and github workflows for the Gi
 | Command | Syntax | Description |
 | --- | --- | --- |
 | `git clone` | `git clone <repository_url>` | Makes a copy of a remote repository onto your local machine. |
-| `git pull` | `git pull <remote> <branch>` | Copies and merges changes from the remote repository to your local repository. |
-| `git push` | `git push <remote> <branch>` | Copies and merges changes from your local repository to the remote repository. |
-| `git add` | `git add <file_name>` | Adds changes made in the working directory to the staging area. |
+| `git pull` | `git pull <remote> <branch>` | Fetch & merges changes from the remote repository to your local repository. |
+| `git push` | `git push <remote> <branch>` | Copies & merges changes from your local repository to the remote repository. |
+| `git add` | `git add <file_name>` | Adds changes made in the current working directory to the Index (Staging). |
 | `git commit` | `git commit -m "<commit_message>"`<br>`git commit -a` | Commits changes to the local repository.<br>`-a` attribute specifies to commit changes straight from working directory to repository. Ignnores untracked files. |
 
 ## Branching Commands

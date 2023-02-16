@@ -4,7 +4,12 @@
         {
             "name" : "Adrian",
             "year" : 2,
-            "preferrer_lang" : "Java"
+            "preferred_lang" : "Java"
+        },
+        {
+            "name" : "Joe",
+            "year" : "2",
+            "preferred_lang" : "Python"
         }
     ]
 }
