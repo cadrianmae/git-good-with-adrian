@@ -5,6 +5,11 @@
             "name" : "Adrian",
             "year" : 2,
             "preferrer_lang" : "Java"
+        },
+        {
+            "name" : "Luke",
+            "year" : 2,
+            "preferrer_lang" : "C"
         }
     ]
 }
