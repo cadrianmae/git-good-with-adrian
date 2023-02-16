@@ -32,6 +32,11 @@
             "name" : "Joe",
             "year" : "2",
             "preferred_lang" : "Python"
+        },
+        {
+            "name" : "Eilish",
+            "year" : 1,
+            "preferred_lang" : "C"
         }
     ]
 }
