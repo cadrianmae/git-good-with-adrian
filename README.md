@@ -21,9 +21,9 @@ This repository is used to practice git commands and github workflows for the Gi
 4. Clone this repository to your local machine in current directory
 5. Pull latest changes from upstream remote repository
     - If there is no upstream remote repository, add it with the following command
-      - `git remote add upstream https://github.com/AdrianCapacite/git-good-wth-adrian.git`
+      - `git remote add origin https://github.com/AdrianCapacite/git-good-wth-adrian.git`
     - Pull latest changes from upstream remote repository
-      - `git pull upstream master`
+      - `git pull origin master`
 
 ### Part 2: Make your changes
 
