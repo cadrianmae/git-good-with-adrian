@@ -9,7 +9,21 @@
         {
             "name" : "Jeni",
             "year" : 1,
-            "preferrer_lang" : "C"       
+            "preferrer_lang" : "C"
+        },
+            "name" : "Ruán",
+            "year" : 1,
+            "preferrer_lang" : "Python"
+        },
+            "name" : "Luke",
+            "year" : 2,
+            "preferrer_lang" : "C"
+            "preferred_lang" : "Java"
+        },
+        {
+            "name" : "Joe",
+            "year" : "2",
+            "preferred_lang" : "Python"
         }
     ]
 }
