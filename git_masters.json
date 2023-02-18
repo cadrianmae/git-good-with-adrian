@@ -7,19 +7,24 @@
             "preferrer_lang" : "Java"
         },
         {
+            "name" : "Ralph",
+            "year" : 1,
+            "preferrer_lang" : "C"
+        },
+        {
             "name" : "Darren",
             "year" : 2,
-            "preferrer_lang" : "C"
+            "preferred_lang" : "C"
         },
         {
             "name" : "Jeni",
             "year" : 1,
-            "preferrer_lang" : "C"
+            "preferred_lang" : "C"
         },
         {
             "name" : "Ruán",
             "year" : 1,
-            "preferrer_lang" : "Python"
+            "preferred_lang" : "Python"
         },
         {
             "name" : "Luke",
@@ -35,6 +40,16 @@
         {
             "name" : "Derv",
             "year" : "1",
+            "preferred_lang" : "C"
+        },
+        {
+            "name" : "Shan",
+            "year" : 1,
+            "preferred_lang" : "C"
+        },
+        {
+            "name" : "Eilish",
+            "year" : 1,
             "preferred_lang" : "C"
         }
     ]
