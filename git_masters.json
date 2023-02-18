@@ -38,6 +38,11 @@
             "preferred_lang" : "Python"
         },
         {
+            "name" : "Derv",
+            "year" : "1",
+            "preferred_lang" : "C"
+        },
+        {
             "name" : "Shan",
             "year" : 1,
             "preferred_lang" : "C"
