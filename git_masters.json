@@ -51,6 +51,11 @@
             "name" : "Eilish",
             "year" : 1,
             "preferred_lang" : "C"
+        },
+        {
+            "name" : "Adrian",
+            "year" : 3,
+            "preferred_lang" : "Java"
         }
     ]
 }
